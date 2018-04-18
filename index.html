@@ -4,10 +4,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>tsc27</title>
+    <style>
+                /* http://meyerweb.com/eric/tools/css/reset/ 
+        v2.0 | 20110126
+        License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        @font-face {
+            font-family: 'AdobeGothicStd-Bold';
+            src: url('AdobeGothicStd-Bold-Alphabetic.woff2') format('woff2'),
+                url('AdobeGothicStd-Bold-Alphabetic.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Avenir LT Std';
+            src: url('AvenirLTStd-Roman.woff2') format('woff2'),
+                url('AvenirLTStd-Roman.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        h1 {
+            padding:0.5em;
+            font-family:'AdobeGothicStd-Bold';
+            font-size: 3em;
+        }
+
+        .container {
+            display: grid;
+            background-color: #FCFCFC;
+            grid-gap: 1em;
+            font-family:  'Avenir LT Std';
+        }
+        .header {
+            background-color: #F1E03F;
+            padding : 3em;
+            text-align: center;
+            line-height: 1.5em;
+        }
+        .header p {
+            font-size: 1.3em;
+        }
+        .cards {
+            padding: 1.5em;
+            background-color: #F7F7F7;
+            display:inherit;
+        }
+        .card-detail {
+            padding : 1em;
+        }
+        .card-detail > .title{
+            font-size:1em;
+        }
+        .card-detail > .headline{
+            font-size:2em;
+        }
+        .card-detail > .details {
+            font-size:0.75em;
+        }
+        .cta-tscjs27 {
+            justify-self: center;
+            
+        }
+        .cta-tscjs27 > button {
+            padding: 1em;
+            background-color: #F1E03F;
+            font-family: 'AdobeGothicStd-Bold';
+            font-size: 0.75em;
+        }
+        .faq {
+            padding:2em;
+        }
+        .faq > h3 {
+            font-family:  'Avenir LT Std';
+            font-size : 2.5em;
+        }
+        .footer {
+            justify-self: center;
+        }
+
+        .box1{
+            background-color:#C3D8DF;
+        }
+        .box2{
+            background-color:#CEEACC;
+        }
+
+        @media (max-width: 40em) {
+            .cards{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-    <p>i love you</p>
+    <div class="container">
+        <div class="header">
+            <h4>DEEP LEARNING MODULE</h4>
+            <h1>TSCJS27</h1>
+            <p>Become a JavaScript ninja developer. JavaScript has been the game changer in the web development arena and the opportunities are endless. Learn ‘the language of the web’ with tsc27.</p>
+        </div>
+        <div class="cards">
+            <div class="card-detail">
+                <p class="title">Duration</p>
+                <p class="headline">1 month</p>
+                <p class="detail">Study 12 hours/ week and complete in one month</p>
+            </div>
+            <div class="card-detail">
+                <p class="title">Prerequisites</p>
+                <p class="headline">HTML / Git</p>
+                <p class="detail">See prerequisites in detail</p>
+            </div>
+        </div>
+        <div class="cta-tscjs27"><button>start learning</button></div>
+        <div class="faq">
+            <h3>Why Javascript?</h3>
+            <p>Javascript is one of the most used languages of the web. JavaScript applications can nowadays be executed on different devices (desktop computers, mobile devices, servers, and even on embedded devices) which is the reason behind its massive prevalence in the web-dev world. Almost every new tech startup needs knowledgeable JavaScript application developers on staff.
+                    The goal of this program is to equip you with skills you will need to build web applications and learn popular frameworks like react, angular, vue.js.</p>
+        </div>
+        <div class="faq">
+            <h3>What makes this course special?
+                </h3>
+            <p>Handpicked resources from different training modules and popular books
+                    Build core concepts in Javascript.
+                    Practice exercises which test your skills
+                    Prepare yourself to learn other technologies based on Javascript like React, Angular, Node.JS etc.
+                    Create numerous opportunities in the domain of Javascript and other JS based frameworks.</p>
+        </div>
+        <div class="faq">
+            <h3>What will you learn?
+                </h3>
+            <p>Many times noobies and other javascript developers limit their understanding despite using the language on a day to day basis. In this course you will understand the fundamentals and learn to use javascript as a functional programming language. 
+
+                    The training will be divided into three parts as follows -
+                    
+                    Part 1. Javascript Fundamentals  
+                    Part 2. Functional programming and its concepts  
+                    Part 3. Native Javascript</p>
+        </div>
+        <div class="footer">
+            <h3>Course Fee : 10,000 INR | 160 USD</h3>
+            <button>Enroll Now</button>
+        </div>
+    </div>
     
 </body>
 </html>
